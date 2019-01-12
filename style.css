@@ -39,3 +39,22 @@ ul{
 td,tr{
    height:20px;
 }
+
+A {
+
+   TEXT-DECORATION:NONE;
+    COLOR:   	 #007bb6;
+} 
+A:visited {
+   TEXT-DECORATION: NONE
+    COLOR: 	 #007bb6;
+}
+A:active {
+   TEXT-DECORATION: NONE
+   COLOR: #0000CC;
+}
+A:hover {
+   TEXT-DECORATION: NONE;
+    COLOR: #0000CC;
+
+}
