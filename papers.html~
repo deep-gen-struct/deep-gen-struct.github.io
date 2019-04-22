@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<title>Deep Generative Models for Highly Structured Data</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="style.css">
+<style>
+html,body,h3,h3,h3,h4,h5,h6 {font-family:sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 120px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+.w3-top-padding-64{
+  padding-top: 64px!important;;
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-theme-l1">Home</a>
+    <!-- <a href="organization.html" class="w3-bar-item w3-button w3-theme-l1">Organization</a> -->
+    <!-- <a href="speakers.html" class="w3-bar-item w3-button w3-theme-l1">Speakers</a> -->
+    <!-- <a href="schedule.html" class="w3-bar-item w3-button w3-theme-l1">Schedule</a> -->
+    <!-- <a href="submissions.html" class="w3-bar-item w3-button w3-theme-l1">Call for Papers</a> -->
+  </div>
+</div>
+
+
+<!--nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5" id="mySidebar">
+</nav-->
+
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main">
+<div class="w3-row w3-top-padding-64">
+    <div class="w3-container">
+  <h2>
+    Deep Generative Models for Highly Structured Data <small>(ICLR 2019 Workshop)</small>
+  </h2>
+    </div>
+    <div style="margin-left: 10pt;margin-right: 10pt">
+    </div>
+    
+    <div class="w3-container">
+      <!-- <h3 class="w3-text">Overview</h3> -->
+      <div style="margin-left: 10pt;margin-right: 10pt;">
+	<p>(For any questions please email <a href="mailto:deepgenstruct2019@gmail.com">deepgenstruct2019@gmail.com</a>)</p>
+
+	<p>Deep generative models are at the core of research in artificial intelligence. They have achieved
+	  remarkable performance in many domains including computer vision, speech recognition, 
+	  audio synthesis, and natural language processing.
+	  In recent years, they have also infiltrated other fields of science including the natural
+	  sciences, physics, chemistry, molecular biology, and medicine. Despite these successes,
+	  deep generative models still face many challenges when they are used to model highly
+	  structured data such as natural language, video, and generic graph-structured data such as
+	  molecules. These challenges include tractable algorithms for learning and inference, domain-specific
+	  parameterizations of generative models, rigorous evaluation of generative models, and more.
+
+	  This first workshop on Deep Generative Models for Highly Structured Data 
+	  aims to bring experts from different backgrounds and perspectives to
+	  discuss the applications of deep generative models to these data modalities. </p>
+	<p>	Relevant topics to this workshop include but are not limited to:</p>
+	<li> Generative models for graphs, text, video, and other structured modalities </li>
+	<li> Unsupervised representation learning of high dimensional structured data </li>
+	<li> Learning and inference algorithms for deep generative models </li>
+	<li> Evaluation methods for deep generative models </li>
+	<li> Applications and practical implementations of deep generative models </li>
+	<li> Scalable algorithms to accelerate learning with deep generative models </li>
+	<li> Visualization methods for deep generative models </li>
+	<li> Empirical analysis comparing different architectures for a given data modality </li>
+    </div>
+    </div>
+    <!--div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+    </div-->
+</div>
+
+
+<div class="w3-row">
+  <div class=" w3-container">
+    <h3 class="w3-text">Important Dates</h3>
+    <table>      
+      <tr>
+        <td width="250px" class="name">Paper submission deadline</td><td class="institution"><strike>March 15, 2019</strike> March 26, 2019 (anywhere in the world)</td>
+      </tr>
+      <tr>
+        <td width="250px" class="name">Acceptance notification</td><td class="institution">April 20, 2019</td>
+      </tr>
+      <tr>
+        <td width="250px" class="name">Camera-ready deadline</td><td class="institution">April 27, 2019</td>
+      </tr>            
+      <tr>
+        <td width="250px" class="name">Workshop</td><td class="institution">May 6, 2019</td>
+      </tr>
+    </table>
+  </div>    
+</div>
+
+<div class="w3-row">
+  <div class=" w3-container">
+    <h3 class="w3-text">Camera-Ready Instructions</h3>
+    <div style="margin-left: 10pt;margin-right: 10pt;">
+      Please submit your final papers via OpenReview, available at:
+      <p><a href="https://openreview.net/group?id=ICLR.cc/2019/Workshop/DeepGenStruct">https://openreview.net/group?id=ICLR.cc/2019/Workshop/DeepGenStruct</a></p>
+	<li> Deadline is April 27, anywhere in the world. </li>
+	<li> Recommended page length of 4-8 pages, with a strict upper limit of 10 pages. </li>
+	<li> References/appendices do not count towards the page limit.</li>
+      <li> Latex template available <a href="ICLR2019-Workshop-Template.tar.gz">here</a>. Use \iclrfinalcopy in the latex template for the final version.</li>
+	<li> Accepted papers are considered non-archival and concurrent submissions are allowed</li>
+    </div>
+  </div>
+</div>
+
+<div class="w3-row">
+  <div class=" w3-container">
+    <h3 class="w3-text">Keynote: Yoshua Bengio</h3>
+    <p style="text-align:center;">
+      <img src="bengio.jpg" alt="bengio" style="width:230px;height:290px;">
+    </p>
+
+    <p style="text-align:center;">
+    <span class="name">Meta-transfer learning for factorizing representations and knowledge for AI</span>
+      </p>
+    <p><b>Abstract</b>: Whereas machine learning theory has focused on generalization to examples from the same distribution as the training data, better understanding of the transfer scenarios where the observed distribution changes often in the lifetime of the learning agent is important, both for robust deployment and to achieve a more powerful form of generalization which humans seem able to enjoy and which seem necessary for learning agents. Whereas most machine learning algorithms and architectures can be traced back to assumptions about the training distributions, we also need to explore assumptions about how the observed distribution changes. We propose that sparsity of change in distribution, when knowledge is represented appropriately, is a good assumption for this purpose, and we claim that if that assumption is verified and knowledge represented appropriately, it leads to fast adaptation to changes in distribution, and thus that the speed of adaptation to changes in distribution can be used as a meta-objective which can drive the discovery of knowledge representation compatible with that assumption. We illustrate these ideas in causal discovery: is some variable a direct cause of another? and how to map raw data to a representation space where different dimensions correspond to causal variables for which a clear causal relationship exists? What generative model of the data can be quickly adapted to interventions in the agent's environment? We propose a large research program in which this non-stationarity assumption and meta-transfer objective is combined with other closely related assumptions about the world embodied in a world model, such as the consciousness prior (the causal graph is captured by a sparse factor graph) and the assumption that the causal variables are often those agents can act upon (the independently controllable factors prior), both of which should be useful for agents which plan, imagine and try to find explanations for what they observe.</p>
+    
+<p><b>Bio</b>: Yoshua Bengio is Full Professor in the computer science and operations research department at U. Montreal, scientific director of Mila and of IVADO, Turing Award 2018 recipient, Canada Research Chair in Statistical Learning Algorithms, as well as a Canada AI CIFAR Chair. He pioneered deep learning and has been getting the most citations per day in 2018 among all computer scientists, worldwide. He is officer of the Order of Canada, member of the Royal Society of Canada, was awarded the Marie-Victorin Prize and the Radio-Canada Scientist of the year in 2017, and he is a member of the NeurIPS board and co-founder and general chair for the ICLR conference, as well as program director of the CIFAR program on Learning in Machines and Brains. His goal is to contribute to uncover the principles giving rise to intelligence through learning, as well as favour the development of AI for the benefit of all.</p>
+  </div>    
+</div>
+
+<div class="w3-row">
+  <div class=" w3-container">
+    <h3 class="w3-text">Invited Speakers</h3>
+    <table>      
+      <!-- <tr> -->
+      <!--   <td width="180px" class="name">Yoshua Bengio</td><td class="institution">MILA</td> -->
+      <!-- </tr> -->
+      <tr>	
+	<td width="180px" class="name">Rose Yu</td><td class="institution">Northeastern University</td>
+      </tr>
+      <tr>	
+	<td width="180px" class="name">Yulia Tsvetkov</td><td class="institution">Carnegie Mellon University</td>
+      </tr>
+      <tr>
+	<td width="180px" class="name">Aaron van den Oord</td><td class="institution">DeepMind</td>
+      </tr>
+      <tr>
+	<td width="180px" class="name">Graham Neubig</td><td class="institution">Carnegie Mellon University</td>	
+      </tr>
+    </table>
+  </div>    
+</div>
+
+<div class="w3-row">
+  <div class="w3-container">
+    <h3 class="w3-text">Organization</h3>
+    <div class="w3-container">
+      <h4>Organizing Committee</h4>
+      <table>
+        <tr>
+        <td width="180px" class="name">Adji Bousso Dieng</td><td class="institution"> Columbia University</td>
+        </tr>
+        <tr>
+        <td class="name">Yoon Kim</td><td class="institution">Harvard University</td>
+        </tr>
+        <tr>
+        <td class="name">Siva Reddy</td><td class="institution">Stanford University</td>
+        </tr>
+        <tr>
+        <td class="name">Kyunghyun Cho</td><td class="institution">New York University / Facebook</td>
+        </tr>
+        <tr>
+        <td class="name">Chris Dyer</td><td class="institution">DeepMind</td>
+        </tr>
+	<tr>
+	  <td class="name">Phil Blunsom</td><td class="institution">University of Oxford / DeepMind</td>
+        </tr>
+        <tr>
+        <td class="name">David Blei</td><td class="institution">Columbia University</td>
+        </tr>
+      </table>
+
+<h4 style="margin-bottom: 0px">Program Committee</h4>
+<table>
+  <tr> <td><ul><li class="name" style="width:200px;"> Martin Arjovsky  </li></ul></td>
+    <td><ul><li class="name" style="width:200px;"> Urvashi Khandelwal  </li></ul></td>
+   <td><ul>      	<li class="name" style="width:200px;"> Elman Mansimov</li>	</ul></td></tr>
+  <tr> <td><ul><li class="name" style="width:200px;"> Shashank Srivasta  </li></ul></td>
+    <td><ul><li class="name" style="width:200px;"> Abigail See  </li></ul></td>
+    <td><ul>    	<li class="name" style="width:200px;"> Miltos Allamanis </li> </ul></td> </tr>
+  <tr> <td><ul>      	<li class="name" style="width:200px;"> Will Whitney </li>	      </ul></td>
+    <td><ul>      	<li class="name" style="width:200px;"> Jake Zhao </li></ul></td>
+    <td><ul>      	<li class="name" style="width:200px;"> Andrew Miller </li></ul></td> </tr>
+  <tr> <td><ul>      	<li class="name" style="width:200px;"> He He </li></ul></td>
+    <td><ul>      	<li class="name" style="width:200px;"> Francisco Ruiz </li></ul></td>
+    <td><ul>      	<li class="name" style="width:200px;"> Jianpeng Cheng </li></ul></td> </tr>
+  <tr> <td><ul>      	<li class="name" style="width:200px;"> Dawen Liang </li></ul></td>
+    <td><ul>      	<li class="name" style="width:200px;"> Luheng He </li></ul></td>
+    <td><ul>      	<li class="name" style="width:200px;"> Li Dong </li></ul></td> </tr>
+  <tr> <td><ul>      	<li class="name" style="width:200px;"> Will Grathwohl </li></ul></td> 
+    <td><ul>      	<li class="name" style="width:200px;"> Lea Frermann </li></ul></td> 
+    <td><ul>      	<li class="name" style="width:200px;"> Dieterich Lawson </li></ul></td> </tr>
+  <tr> <td><ul>      	<li class="name" style="width:200px;"> Pengcheng Yin </li>	</ul></td> 
+    <td><ul>      	<li class="name" style="width:200px;"> Eunsol Choi </li></ul></td>
+    <td><ul>      	<li class="name" style="width:200px;"> Shashi Narayan </li></ul></td> </tr>
+  <tr> <td><ul>      	<li class="name" style="width:200px;"> Robin Jia </li></ul></td> 
+    <td><ul>      	<li class="name" style="width:200px;"> Akash Srivastava </li></ul></td>
+    <td><ul>      	<li class="name" style="width:200px;"> Manzil Zaheer </li></ul></td> </tr>
+  <tr> <td><ul>      	<li class="name" style="width:200px;"> Adams Wei Yu </li></ul></td> 
+    <td><ul>      	<li class="name" style="width:200px;"> David Pfau </li></ul></td>
+    <td><ul>      	<li class="name" style="width:200px;"> Sander Dieleman </li></ul></td> </tr>
+  <tr> <td><ul>      	<li class="name" style="width:200px;"> Mihaela Rosca </li></ul></td> 
+    <td><ul>      	<li class="name" style="width:200px;"> Theo Weber </li></ul></td>
+    <td><ul>      	<li class="name" style="width:200px;"> Simon Shaolei Du </li></ul></td> </tr>
+  <tr> <td><ul>      	<li class="name" style="width:200px;"> Michalis Titsias</li>	</ul></td>
+    <td><ul>      	<li class="name" style="width:200px;"> Justin Chiu</li>	</ul></td>
+      <td><ul>      	<li class="name" style="width:200px;"> Zhilin Yang</li>	</ul></td>
+ </tr>
+  <tr> <td><ul>      	<li class="name" style="width:200px;"> Wengong Jin</li>	</ul></td>
+    <td><ul>      	<li class="name" style="width:200px;"> Yuntian Deng</li>	</ul></td>
+    <td><ul>      	<li class="name" style="width:200px;"> Junxian He</li>	</ul></td> </tr>
+  <tr> <td><ul>      	<li class="name" style="width:200px;"> Zhiting Hu</li>	</ul></td> 
+    <td><ul>      	<li class="name" style="width:200px;"> Zhe Gan</li>	</ul></td>
+    <td><ul>      	<li class="name" style="width:200px;"> Jason Lee</li>	</ul></td> </tr>
+  <tr> <td><ul>      	<li class="name" style="width:200px;"> Balaji Lakshminarayan</li>	</ul></td>
+    <td><ul>      	<li class="name" style="width:200px;"> Da Tang</li>	</ul></td> 
+    <td><ul>      	<li class="name" style="width:200px;"> Tianxiao Shen</li>	</ul></td> </tr>
+  
+</table>
+    </div>
+    
+  </div>
+</div>
+
+
+<div class="w3-row">
+  <div class=" w3-container">
+    <h3 class="w3-text">Sponsors</h3>    
+  </div>
+  <img src="deepmind_logo.png" alt="dm" vspace="50" hspace="50" style="width:300px;height:65px;">
+  <img src="fair_logo.png" alt="fair" vspace="50" hspace="50" style="width:300px;height:65px;">
+  <img src="microsoft_logo.png" alt="fair" vspace="50" hspace="50" style="width:300px;height:65px;">  
+</div>
+
+    <!--div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+    </div-->
+</div>
+  
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+
+</script>
+</body>
+</html>
