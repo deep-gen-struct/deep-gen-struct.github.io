@@ -1,0 +1,60 @@
+
+.name {
+   font-weight: bolder;
+   color:#444444;
+   font-size: 12pt;
+}
+.institution{
+   font-weight:lighter;
+   %color:#557777;
+}
+
+table{
+   margin-left:20px;
+   margin-right:20px;
+}
+
+.w3-text{
+   color:#4682b4;
+}
+
+body{
+   background-color:#dddddd;
+}
+
+.w3-main{
+   margin-left:130px;
+   margin-right: 130px;
+   background-color:white;
+}
+
+#timer{
+   color:#4682b4;
+}
+
+ul{
+   margin:0px;
+}
+
+td,tr{
+   height:20px;
+}
+
+A {
+
+   TEXT-DECORATION:NONE;
+    COLOR:   	 #007bb6;
+} 
+A:visited {
+   TEXT-DECORATION: NONE
+    COLOR: 	 #007bb6;
+}
+A:active {
+   TEXT-DECORATION: NONE
+   COLOR: #0000CC;
+}
+A:hover {
+   TEXT-DECORATION: NONE;
+    COLOR: #0000CC;
+
+}
